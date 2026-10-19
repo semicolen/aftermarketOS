@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "generic-arm64",
+  "name": "Generic ARM64 root filesystem",
+  "architecture": "arm64",
+  "suite": "trixie",
+  "mirror": "https://deb.debian.org/debian",
+  "packages": ["systemd-sysv", "dbus", "udev", "kmod", "ca-certificates", "iproute2", "openssh-server"],
+  "status": "rootfs-only",
+  "hardware_support": "none",
+  "boot": {"format": "unconfigured"},
+  "requirements": ["Supply and validate a device kernel, matching modules, firmware, initramfs and boot packaging before device installation."]
+}

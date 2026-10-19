@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.cache/
+out/
+firmware-local/
+artifacts/
+evidence-private/
+*.ext4
+*.img
+*.zip
+*.deb
+*.e2undo
+*.pem

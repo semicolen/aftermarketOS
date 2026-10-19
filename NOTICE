@@ -1,0 +1,7 @@
+Original aftermarketOS/debport implementation: semicolen, 2026.
+This repository implements a Debian backend and reads postmarketOS deviceinfo
+metadata. It does not vendor the pmbootstrap implementation.
+Third-party Debian packages retain their respective licenses.
+
+The MIT license applies to original integration code. Third-party files
+retain their original licenses; see source headers and upstream notices.
